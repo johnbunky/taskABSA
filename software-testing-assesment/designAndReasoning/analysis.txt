@@ -1,0 +1,20 @@
+Below are the basic requirements:
+
+Ability to add users based on the available licenses
+Ability to edit user details
+Ability to remove users
+Questions
+
+Given the above high level requirements, what are some of the questions you would ask each of following team members
+to understand this feature better?
+
+Product owner
+- What is deadline? Could you please to explain point 'Questins' form the requirements?
+UX designer
+- Could you please share a UI design example and/or uers stories, which ones I would follow?
+Technical Architect
+- Could you please share a tech requirements?
+
+I would automate testing of all main functions ( add/edit/delete )in order to add these tests to regression tes suite.
+
+
