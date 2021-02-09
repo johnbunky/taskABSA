@@ -27,46 +27,6 @@ public class TestOption2 {
         checkSucsess();
     }
 
-    @Test
-    public void sum(){
-        int[] arr = new int[]{1, 3, 5, 7, 9};
-
-        int sum = 0;
-        //Loop through the array to calculate sum of elements
-        for (int i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
-        }
-        int mixSum = sum - getMax(arr);// Calling getMax() method for getting max value
-        System.out.print(mixSum);
-        int maxSum = sum - getMin(arr); // Calling getMin() method for getting min value
-        System.out.print(" " + maxSum);
-    }
-
-    // Method for getting the maximum value
-    private static int getMax(int[] inputArray){
-        int maxValue = inputArray[0];
-        for(int i=1;i < inputArray.length;i++){
-            if(inputArray[i] > maxValue){
-                maxValue = inputArray[i];
-            }
-        }
-        return maxValue;
-
-    }
-
-    // Method for getting the minimum value
-    private static int getMin(int[] inputArray){
-        int minValue = inputArray[0];
-        for(int i=1;i<inputArray.length;i++){
-            if(inputArray[i] < minValue){
-                minValue = inputArray[i];
-            }
-        }
-        return minValue;
-    }
-
-
-
     private void loginAs(String user, String password) {
         $("#user-name").sendKeys(user);
         $("#password").sendKeys(password);
